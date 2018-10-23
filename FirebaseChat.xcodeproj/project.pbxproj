@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1B35C1217F9B3F00B0174F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B35C0217F9B3F00B0174F /* ChatViewController.swift */; };
+		1E1B35C3217F9EFC00B0174F /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B35C2217F9EFC00B0174F /* ChannelsViewController.swift */; };
+		1E1B35C5217F9F1600B0174F /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B35C4217F9F1600B0174F /* NavigationController.swift */; };
 		1EB05699217F7269002E964C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB05698217F7269002E964C /* AppDelegate.swift */; };
-		1EB0569B217F7269002E964C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB0569A217F7269002E964C /* ViewController.swift */; };
 		1EB0569E217F7269002E964C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0569C217F7269002E964C /* Main.storyboard */; };
 		1EB056A0217F726E002E964C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB0569F217F726E002E964C /* Assets.xcassets */; };
 		1EB056A3217F726E002E964C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EB056A1217F726E002E964C /* LaunchScreen.storyboard */; };
 		1EB056AC217F745C002E964C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EB056AB217F745C002E964C /* GoogleService-Info.plist */; };
+		1EB056B1217F77BE002E964C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056B0217F77BE002E964C /* LoginViewController.swift */; };
+		1EB056B6217F8ECC002E964C /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056B5217F8ECC002E964C /* Channel.swift */; };
+		1EB056B8217F8EF6002E964C /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056B7217F8EF6002E964C /* DatabaseRepresentation.swift */; };
+		1EB056BA217F966E002E964C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056B9217F966E002E964C /* Message.swift */; };
+		1EB056BC217F968A002E964C /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056BB217F968A002E964C /* UICollectionView+Additions.swift */; };
+		1EB056BE217F96CF002E964C /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056BD217F96CF002E964C /* UIColor+Additions.swift */; };
+		1EB056C0217F96EE002E964C /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056BF217F96EE002E964C /* UIImage+Additions.swift */; };
+		1EB056C2217F9710002E964C /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056C1217F9710002E964C /* UIView+Additions.swift */; };
+		1EB056C4217F9733002E964C /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056C3217F9733002E964C /* AppController.swift */; };
+		1EB056C6217F975E002E964C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB056C5217F975E002E964C /* AppSettings.swift */; };
 		6D1B60EC9773925B1AE1DB13 /* Pods_FirebaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C19360199B78551C1DA782 /* Pods_FirebaseChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12308C45AA635C93D9916D9F /* Pods-FirebaseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChat.release.xcconfig"; path = "Target Support Files/Pods-FirebaseChat/Pods-FirebaseChat.release.xcconfig"; sourceTree = "<group>"; };
+		1E1B35C0217F9B3F00B0174F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1E1B35C2217F9EFC00B0174F /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		1E1B35C4217F9F1600B0174F /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		1EB05695217F7269002E964C /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EB05698217F7269002E964C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EB0569A217F7269002E964C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EB0569D217F7269002E964C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EB0569F217F726E002E964C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EB056A2217F726E002E964C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EB056A4217F726E002E964C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EB056AB217F745C002E964C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EB056B0217F77BE002E964C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1EB056B5217F8ECC002E964C /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		1EB056B7217F8EF6002E964C /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		1EB056B9217F966E002E964C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1EB056BB217F968A002E964C /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		1EB056BD217F96CF002E964C /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		1EB056BF217F96EE002E964C /* UIImage+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		1EB056C1217F9710002E964C /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		1EB056C3217F9733002E964C /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		1EB056C5217F975E002E964C /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		C9C19360199B78551C1DA782 /* Pods_FirebaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB65F7EF2269ADC9378D8DE1 /* Pods-FirebaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChat.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseChat/Pods-FirebaseChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,39 +87,75 @@
 		1EB05697217F7269002E964C /* FirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
-				1EB056AE217F7474002E964C /* Scenes */,
-				1EB056AD217F7465002E964C /* Application */,
-				1EB056AA217F7408002E964C /* Resources */,
+				1EB056B4217F79F5002E964C /* Extensions */,
+				1EB056B3217F79F0002E964C /* Models */,
+				1EB056AE217F7474002E964C /* ViewControllers */,
+				1EB056AD217F7465002E964C /* Controllers */,
+				1EB056B2217F780D002E964C /* Storyboards */,
+				1EB056AA217F7408002E964C /* Supporting Files */,
 			);
 			path = FirebaseChat;
 			sourceTree = "<group>";
 		};
-		1EB056AA217F7408002E964C /* Resources */ = {
+		1EB056AA217F7408002E964C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				1EB056AB217F745C002E964C /* GoogleService-Info.plist */,
-				1EB0569C217F7269002E964C /* Main.storyboard */,
 				1EB0569F217F726E002E964C /* Assets.xcassets */,
-				1EB056A1217F726E002E964C /* LaunchScreen.storyboard */,
 				1EB056A4217F726E002E964C /* Info.plist */,
 			);
-			path = Resources;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1EB056AD217F7465002E964C /* Application */ = {
+		1EB056AD217F7465002E964C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				1EB05698217F7269002E964C /* AppDelegate.swift */,
+				1EB056C3217F9733002E964C /* AppController.swift */,
+				1EB056C5217F975E002E964C /* AppSettings.swift */,
 			);
-			path = Application;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		1EB056AE217F7474002E964C /* Scenes */ = {
+		1EB056AE217F7474002E964C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1EB0569A217F7269002E964C /* ViewController.swift */,
+				1EB056B0217F77BE002E964C /* LoginViewController.swift */,
+				1E1B35C0217F9B3F00B0174F /* ChatViewController.swift */,
+				1E1B35C2217F9EFC00B0174F /* ChannelsViewController.swift */,
+				1E1B35C4217F9F1600B0174F /* NavigationController.swift */,
 			);
-			path = Scenes;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1EB056B2217F780D002E964C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1EB0569C217F7269002E964C /* Main.storyboard */,
+				1EB056A1217F726E002E964C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1EB056B3217F79F0002E964C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EB056B5217F8ECC002E964C /* Channel.swift */,
+				1EB056B7217F8EF6002E964C /* DatabaseRepresentation.swift */,
+				1EB056B9217F966E002E964C /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EB056B4217F79F5002E964C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1EB056BB217F968A002E964C /* UICollectionView+Additions.swift */,
+				1EB056BD217F96CF002E964C /* UIColor+Additions.swift */,
+				1EB056BF217F96EE002E964C /* UIImage+Additions.swift */,
+				1EB056C1217F9710002E964C /* UIView+Additions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C4225273D6C7915EE42DF30D /* Pods */ = {
@@ -194,14 +254,34 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FirebaseChat/Pods-FirebaseChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,8 +318,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB0569B217F7269002E964C /* ViewController.swift in Sources */,
+				1EB056C2217F9710002E964C /* UIView+Additions.swift in Sources */,
+				1EB056B1217F77BE002E964C /* LoginViewController.swift in Sources */,
+				1EB056C6217F975E002E964C /* AppSettings.swift in Sources */,
+				1EB056BE217F96CF002E964C /* UIColor+Additions.swift in Sources */,
+				1E1B35C3217F9EFC00B0174F /* ChannelsViewController.swift in Sources */,
+				1EB056B6217F8ECC002E964C /* Channel.swift in Sources */,
+				1E1B35C5217F9F1600B0174F /* NavigationController.swift in Sources */,
+				1EB056C4217F9733002E964C /* AppController.swift in Sources */,
+				1EB056BA217F966E002E964C /* Message.swift in Sources */,
+				1EB056B8217F8EF6002E964C /* DatabaseRepresentation.swift in Sources */,
+				1E1B35C1217F9B3F00B0174F /* ChatViewController.swift in Sources */,
+				1EB056BC217F968A002E964C /* UICollectionView+Additions.swift in Sources */,
 				1EB05699217F7269002E964C /* AppDelegate.swift in Sources */,
+				1EB056C0217F96EE002E964C /* UIImage+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +415,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -377,6 +470,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -387,7 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/FirebaseChat/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -406,7 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/FirebaseChat/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/FirebaseChat/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
